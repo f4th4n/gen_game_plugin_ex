@@ -1,6 +1,6 @@
-defmodule GenGamePluginEx do
+defmodule GenGamePlugin do
   @moduledoc """
-  Documentation for `GenGamePluginEx`.
+  Documentation for `GenGamePlugin`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule GenGamePluginEx do
 
   ## Examples
 
-      iex> GenGamePluginEx.hello()
+      iex> GenGamePlugin.hello()
       :world
 
   """
