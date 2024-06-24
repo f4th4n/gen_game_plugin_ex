@@ -1,18 +1,17 @@
 defmodule GenGamePlugin do
-  @moduledoc """
-  Documentation for `GenGamePlugin`.
-  """
+  @moduledoc false
 
-  @doc """
-  Hello world.
+  def setup() do
+  end
 
-  ## Examples
+  def _try do
+    # socket_opts = [
+    #   url: "ws://127.0.0.1:4000/game/websocket"
+    # ]
 
-      iex> GenGamePlugin.hello()
-      :world
-
-  """
-  def hello do
-    :world
+    # {:ok, socket} = PhoenixClient.Socket.start_link(socket_opts)
+    # {:ok, response, channel} = PhoenixClient.Channel.join(socket, "public")
+    # IO.inspect({"response, channel"}, response, channel)
+    # channel
   end
 end
